@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  Button Ids:                                                                             -->
+<!--    0: left                                                                               -->
+<!--    1: right                                                                              -->
+<!--    2: middle                                                                             -->
+<!--    3/4/5/6: extra                                                                        -->
+
+<keymap>
+  <global>
+    <mouse>
+      <leftclick>Select</leftclick>
+      <rightclick>Back</rightclick>
+      <middleclick>noop</middleclick>
+      <doubleclick id="0">noop</doubleclick>
+      <longclick id="0">noop</longclick>
+      <doubleclick id="1">noop</doubleclick>
+      <longclick id="1">noop</longclick>
+      <wheeldown>noop</wheeldown>
+      <wheelup>noop</wheelup>
+      <mousemove>noop</mousemove>
+	  
+<!--  Added for Kodi 15 (Isengard)  -->
+      <mousedrag>noop</mousedrag>
+      <mousedragstart>Select</mousedragstart>
+      <mousedragend>noop</mousedragend>
+      <mouserdrag>noop</mouserdrag>
+      <mouserdragstart>Back</mouserdragstart>
+      <mouserdragend>noop</mouserdragend>
+<!--                                -->
+    </mouse>
+  </global>
+
+  <FullscreenVideo>
+    <mouse>
+      <leftclick>OSD</leftclick>
+      <mousedragstart>OSD</mousedragstart>
+    </mouse>
+  </FullscreenVideo>
+
+  <Visualisation>
+    <mouse>
+      <leftclick>OSD</leftclick>
+      <mousedragstart>OSD</mousedragstart>
+    </mouse>
+  </Visualisation>
+
+  <SlideShow>
+    <mouse>
+      <leftclick>Pause</leftclick>
+      <rightclick>PreviousMenu</rightclick>
+      <wheelup>PreviousPicture</wheelup>
+      <wheeldown>NextPicture</wheeldown>
+    </mouse>
+  </SlideShow>
+
+</keymap>
