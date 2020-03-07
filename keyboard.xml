@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <global>
+    <keyboard>
+      <key id="61654">contextmenu</key>
+      <key id="61952">screenshot</key>
+    </keyboard>
+  </global>
+</keymap>
